@@ -3,10 +3,15 @@ A demo done for Syntax 2026.
 Came in 5th.
 
 Designed to build in windows. 
+
 Uses sdcc.
+
 Mame was used to debug for mbee compiles, and vs for windows.
+
 Node is used for the rebuilding random data and code.
+
 Python is used in the build to make disk images and deal with sdcc's buggy assembler.
+
 The target machine is a Premium 128k. Mainly cause that was what I had the roms for.
 
 resbuild was used to edit some images, eh, that didn't work so well.
