@@ -1,0 +1,65 @@
+definitions: 
+    the microbee palette:
+        - The following colors, in order
+            - 0, 0, 0
+            - 192, 0, 0
+            - 0, 192, 0
+            - 192, 192, 0
+            - 0, 0, 192
+            - 192, 0, 192
+            - 0, 192, 192
+            - 255, 255, 255
+            - 96, 96, 96
+            - 255, 0, 0
+            - 0, 255, 0
+            - 255, 255, 0
+            - 0, 0, 255
+            - 255, 0, 255
+            - 0, 255, 255
+            - 255, 255, 255
+
+    evlores image:
+        - images use the microbee pallete
+        - the image is formed of pixels that are twice as high as wide
+        - each pixel can be any color from the pallete
+        - images can be of any width, but must have a height divisible by 2
+        - the export format is as such:
+            - each byte is made up of two nibbles, the first being the bottom pixel, the second being the top pixel
+            - so each row of bytes is effectively two rows of pixels
+
+    monopixel image:
+        - 
+        - the image is formed of pixels that are twice as high as wide
+
+create a SPA that allows creating of assets for a demo
+
+- the SPA should be done in raw JS
+- a server should be done in C#
+- asset data will be stored into a sqlite db
+    - the db should be stored in c:\coding\mb2\res
+- all assets are exported to c:\coding\mb2\src\res.c/h
+    - the export files should be lazily written out as the assets are edited
+
+
+- there will be a left sidebar which shows a tree
+    - 1st level is a type of asset
+    - 2nd level is contributing data
+
+asset types:
+    - wavetext_font
+        - contributing data
+            - a string
+            - a set of 8x10 tiles for ascii characters
+                - these are monochrome
+        - when previewing, space out the characters, they will be effective rendered when used with a space between each character
+        - the export:
+            - it will have a byte array of characters from the text
+            - it will have a byte array of the charater bitmaps
+                - each character will be 16 bytes
+                - only characters used in the text will be in this array
+    - evlores image
+        - user should be able to:
+            - specify the variable name for the data
+            - shift all the pixels in different directions
+    - monopixel image
+

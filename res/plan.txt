@@ -1,0 +1,9 @@
+bars logo import:
+    - make a file gen_barslogo.mjs
+    - have it export a function that is called by rebuild.mjs
+    - load the file apiary.png
+        - convert it into a .h/.c pair
+        - the variable should be named apiaryLogoData
+        - which is an array of bytes
+            - arranged into stripes 8 pixels wide
+            - each 8 pixels should be in one byte, with white pixels being 1 and black pixels being 0

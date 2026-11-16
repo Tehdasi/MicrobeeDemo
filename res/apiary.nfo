@@ -1,0 +1,7 @@
+Apiary by Factory
+A demo for the Microbee 128k premium.
+Release at Syntax 2026.
+
+Never tested on real hardware, works on mame.
+This prolly should work on a 64k premium too, since I don't use any memory paging.
+Definitely doesn't work on a monochrome model, and TC models will have messed up colours.

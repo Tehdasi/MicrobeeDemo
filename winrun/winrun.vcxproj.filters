@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win">
+      <UniqueIdentifier>{a7d2c8cc-82be-4746-b03a-52d3b32ef114}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\win\win.c">
+      <Filter>win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\effect13.c" />
+    <ClCompile Include="..\src\main.c" />
+    <ClCompile Include="..\src\misc.c" />
+    <ClCompile Include="..\src\res.c" />
+    <ClCompile Include="..\src\effect10.c" />
+    <ClCompile Include="..\src\staticlines.c" />
+    <ClCompile Include="..\src\plasma.c" />
+    <ClCompile Include="..\src\wavetext.c" />
+    <ClCompile Include="..\src\evlores.c" />
+    <ClCompile Include="..\src\sections.c" />
+    <ClCompile Include="..\src\colourfade.c" />
+    <ClCompile Include="..\src\showpic.c" />
+    <ClCompile Include="..\src\skidrow.c" />
+    <ClCompile Include="..\src\rotators.c" />
+    <ClCompile Include="..\src\colourribbons.c" />
+    <ClCompile Include="..\src\rotatorsfuncs.c" />
+    <ClCompile Include="..\src\bars.c" />
+    <ClCompile Include="..\src\barslogo.c" />
+    <ClCompile Include="..\src\skidrowsteps.c" />
+    <ClCompile Include="..\src\textaudio.c" />
+    <ClCompile Include="..\src\plasmatiles.c" />
+    <ClCompile Include="..\src\textaudiodata.c" />
+    <ClCompile Include="..\src\fadelines.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\win\win.h">
+      <Filter>win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\effect13.h" />
+    <ClInclude Include="..\src\misc.h" />
+    <ClInclude Include="..\src\res.h" />
+    <ClInclude Include="..\src\system.h" />
+    <ClInclude Include="..\src\effect10.h" />
+    <ClInclude Include="..\src\staticlines.h" />
+    <ClInclude Include="..\src\plasma.h" />
+    <ClInclude Include="..\src\wavetext.h" />
+    <ClInclude Include="..\src\evlores.h" />
+    <ClInclude Include="..\src\sections.h" />
+    <ClInclude Include="..\src\colourfade.h" />
+    <ClInclude Include="..\src\showpic.h" />
+    <ClInclude Include="..\src\skidrow.h" />
+    <ClInclude Include="..\src\rotators.h" />
+    <ClInclude Include="..\src\colourribbons.h" />
+    <ClInclude Include="..\src\rotatorsfuncs.h" />
+    <ClInclude Include="..\src\bars.h" />
+    <ClInclude Include="..\src\barslogo.h" />
+    <ClInclude Include="..\src\skidrowsteps.h" />
+    <ClInclude Include="..\src\textaudio.h" />
+    <ClInclude Include="..\src\plasmatiles.h" />
+    <ClInclude Include="..\src\textaudiodata.h" />
+    <ClInclude Include="..\src\fadelines.h" />
+  </ItemGroup>
+</Project>
